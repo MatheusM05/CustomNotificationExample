@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark"
+    tools:context="br.com.mob.notificationc4.MainActivity">
+
+    <TextView
+        android:text="Cadastro de clientes"
+        android:textColor="@color/textColor"
+        android:textSize="36dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_weight="20"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/ic_people_white_48dp"
+        android:layout_weight="20"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"/>
+
+    <Button
+        android:id="@+id/btn_cadastro"
+        android:text="CADASTRAR"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="60dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@drawable/buttons"
+        android:layout_weight="20"/>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">NotificationC4</string>
+    <string name="notification_ex">Seus dados foram salvos com sucesso,\r\n
+                                   Você pode clicar aqui para visualiza-los!\r\n
+                                   Também salvamos uma cópia no servidor</string>
+    <string name="sucesso">Cadastrado com sucesso!\r\nClique para visualizar</string>
+</resources>

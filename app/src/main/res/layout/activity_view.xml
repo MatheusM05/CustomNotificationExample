@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100"
+    android:background="@color/colorPrimary"
+    tools:context="br.com.mob.notificationc4.ViewActivity">
+
+
+    <TextView
+        android:text="Informações cadastradas"
+        android:textSize="30dp"
+        android:textColor="@color/textColor"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="20"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:backgroundTint="@color/textColor"
+        android:layout_marginBottom="20dp"
+        android:background="@android:color/black" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="20"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:textColor="@color/textColor"
+            android:text="Nome:"
+            android:textSize="26dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/lbl_nome"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textColor="@color/textColor"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="20"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:textColor="@color/textColor"
+            android:text="Telefone:"
+            android:textSize="26dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/lbl_telefone"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textColor="@color/textColor"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="20"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:textColor="@color/textColor"
+                android:text="Email:"
+                android:textSize="26dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/lbl_email"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:textColor="@color/textColor"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+        </LinearLayout>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

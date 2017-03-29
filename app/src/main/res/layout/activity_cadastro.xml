@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    tools:context="br.com.mob.notificationc4.CadastroActivity"
+    android:weightSum="6">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/textColor"
+        android:layout_weight="1"
+        android:text="Cadastro de clientes"
+        android:textSize="26dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal"
+        android:layout_weight="1" >
+
+        <TextView
+            android:textColor="@color/textColor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Nome:" />
+
+        <EditText
+            android:id="@+id/txt_nome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColorHint="@color/textColor"
+            android:textColor="@color/textColor"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Name" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/textColor"
+            android:text="Telefone:" />
+
+        <EditText
+            android:id="@+id/txt_telefone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/textColor"
+            android:ems="10"
+            android:textColorHint="@color/textColor"
+            android:inputType="phone"
+            android:hint="Telefone" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/textColor"
+            android:text="Email:" />
+
+        <EditText
+            android:id="@+id/txt_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/textColor"
+            android:textColorHint="@color/textColor"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:hint="email@dominio.com.br" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp" >
+
+        <Space
+            android:layout_width="50dp"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:id="@+id/btn_salvar"
+            android:text="Salvar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/buttons"/>
+
+        <Space
+            android:layout_width="50dp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+</LinearLayout>
